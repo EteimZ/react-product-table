@@ -1,0 +1,43 @@
+.center {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: darkgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=text] {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-size: 18px;
+}
+
+input[type=text]:focus {
+    border: 2px solid #555;
+}
+
+.label-container {
+    width: 80%;
+    margin: auto;
+}
+
+input[type=checkbox] {
+    height: 22px;
+    width: 22px;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+th{
+    text-align: left;
+}
